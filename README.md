@@ -28,14 +28,17 @@ Perfect for interview practice and backend learning.
 | Others | Lombok, Java Streams API |
 
 ---
-Java Streams Operations Used
-Operation	Description
-filter()	Filter employees by salary or department
-map()	Transform employee entities to DTOs
-sorted()	Sort by salary or name
-collect(Collectors.groupingBy())	Group employees by department
-reduce()	Calculate total salaries
-Collectors.averagingDouble()	Compute average salary
+## 💡 Java Streams Operations Used
+
+| No. | Operation | Description |
+|-----|------------|-------------|
+| 1 | `filter()` | Filter employees by salary or department |
+| 2 | `map()` | Transform employee entities to DTOs |
+| 3 | `sorted()` | Sort by salary or name |
+| 4 | `collect(Collectors.groupingBy())` | Group employees by department |
+| 5 | `reduce()` | Calculate total salaries |
+| 6 | `Collectors.averagingDouble()` | Compute average salary |
+
 ---
 
 | Endpoint                            | Description                        |
